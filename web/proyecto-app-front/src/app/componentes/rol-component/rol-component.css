@@ -1,0 +1,48 @@
+h2 {
+    color: #1b2c58;
+    margin-bottom: 10px;
+}
+
+/* === Formulario === */
+.formulario {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 12px;
+    background: #f9fafc;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.formulario .fila {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario label {
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 4px;
+}
+
+.formulario input {
+    padding: 6px 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.formulario button {
+    grid-column: 1 / -1;
+    background: #0b57d0;
+    color: #fff;
+    border: none;
+    padding: 8px 14px;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.formulario button:hover {
+    background: #0948a8;
+}
